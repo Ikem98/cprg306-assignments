@@ -5,32 +5,32 @@ export const GroceryList = () => {
     
     const groceries = [
     {
-      name: "milk, 4 L 🥛",
+      name: "Milks, 4 L 🥛",
       quantity: 1,
       category: "dairy",
     },
    {
-      name: "bread 🍞",
+      name: "Bread 🍞",
       quantity: 2,
       category: "bakery",
     },
     {
-      name: "eggs, dozen 🥚",
+      name: "Eggs, dozen 🥚",
       quantity: 2,
       category: "dairy",
     },
     {
-      name: "bananas 🍌",
+      name: "Bananas 🍌",
       quantity: 6,
       category: "produce",
     },
     {
-      name: "broccoli 🥦",
+      name: "Broccoli 🥦",
       quantity: 3,
       category: "produce",
     },
     {
-      name: "chicken breasts, 1 kg 🍗",
+      name: "Chicken breasts, 1 kg 🍗",
       quantity: 1,
       category: "meat",
     },
