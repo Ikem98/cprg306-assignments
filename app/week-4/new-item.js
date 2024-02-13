@@ -51,7 +51,7 @@ return (
                             produce
                         </option>
                         <option value="dairy">
-                                Dairy
+                                Dairys
                         </option>
                         <option value="bakery">Bakery</option>
                         <option value="meat">Meat</option>
