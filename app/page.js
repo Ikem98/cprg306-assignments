@@ -6,7 +6,10 @@ export default function Page() {
         
         CPRG 306: Web Development 2 - Assignments</h1>
        
-        <div className="italic text-2xl flex justify-center"> <Link href="./week-2" > week-2 page</Link></div>  
+        <div className="italic text-2xl flex justify-center"> <Link href="./week-2" > week-2 page</Link></div> 
+        <div className="italic text-2xl flex justify-center"> <Link href="./week-3" > week-3 page</Link></div>  
+        <div className="italic text-2xl flex justify-center"> <Link href="./week-4" > week-4 page</Link></div>  
+        
       
          
     </main>
