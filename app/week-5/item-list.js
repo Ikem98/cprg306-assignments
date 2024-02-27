@@ -9,7 +9,7 @@ export const ItemList = () => {
 
     useEffect(() => {
         // Sorting logic inside useEffect to react on sortBy changes
-        const sorted = [itemsData].sort((a, b) => {
+        const sorted = [...itemsData].sort((a, b) => {
             if (sortBy === 'name') {
                 return a.name.localeCompare(b.name);
             } else if (sortBy === 'category') {
@@ -26,7 +26,7 @@ export const ItemList = () => {
                 onClick={() => setSortBy('name')}
                 style={{ backgroundColor: sortBy === 'name' ? 'lightblue' : 'white' }}
             >
-                Sort by Name
+                Sort by Nam
             </button>
             <button
                 onClick={() => setSortBy('category')}
